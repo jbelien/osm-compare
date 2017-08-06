@@ -6,6 +6,21 @@
 
 {% block content %}
 <div class="container">
+  <form action="/upload" method="post" enctype="multipart/form-data">
+  <div class="float-right" >
+    <div class="btn-group" role="group">
+      {% if not file and not errors %}
+      <button type="button" class="btn btn-outline-secondary" disabled="disabled"><i class="fa fa-hand-o-left" aria-hidden="true"></i> Back</button>
+      <button type="submit" class="btn btn-primary">Next <i class="fa fa-hand-o-right" aria-hidden="true"></i></button>
+      {% elseif errors %}
+      <a href="/upload" class="btn btn-secondary"><i class="fa fa-hand-o-left" aria-hidden="true"></i> Back</a>
+      <a href="#" class="btn btn-outline-secondary disabled">Next <i class="fa fa-hand-o-right" aria-hidden="true"></i></a>
+      {% elseif file %}
+      <a href="/upload" class="btn btn-secondary"><i class="fa fa-hand-o-left" aria-hidden="true"></i> Back</a>
+      <a href="/overpass" class="btn btn-primary">Next <i class="fa fa-hand-o-right" aria-hidden="true"></i></a>
+      {% endif %}
+    </div>
+  </div>
   <h2>1 - Upload data</h2>
   <hr>
 
@@ -20,22 +35,19 @@
       </ul>
     </div>
     {% else %}
-    <a href="/overpass" class="float-right"{{ 'disabled="disabled"' if not file }}>Next <i class="fa fa-hand-o-right" aria-hidden="true"></i></a>
     <p>
       <strong>File :</strong> {{ file }}
     </p>
     <div id="map" style="width: 100%; height: 500px;"></div>
     {% endif %}
   {% else %}
-  <form action="/upload" method="post" enctype="multipart/form-data">
     <div class="form-group">
       <label for="input-file">File input</label>
       <input type="file" name="file" class="form-control-file" id="input-file" aria-describedby="input-file-help">
       <small id="input-file-help" class="form-text text-muted">Must be a valid GeoJSON file. Full details on <a href="http://geojson.org/" target="_blank">http://geojson.org/</a>.</small>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
   {% endif %}
+  </form>
 </div>
 {% endblock %}
 

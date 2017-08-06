@@ -2,18 +2,24 @@
 
 {% block content %}
 <div class="container">
+  <form action="/compare" method="post">
+  <div class="float-right" >
+    <div class="btn-group" role="group">
+      <a href="/upload" class="btn btn-secondary"><i class="fa fa-hand-o-left" aria-hidden="true"></i> Back</a>
+      <button type="submit" class="btn btn-primary">Next <i class="fa fa-hand-o-right" aria-hidden="true"></i></button>
+    </div>
+  </div>
   <h2>2 - Fetch OSM data <small class="text-muted">with Overpass API</small></h2>
   <hr>
-  <form action="/compare" method="post">
-    <div class="form-group">
-      <label for="textarea-file">Overpass query</label>
-      <textarea name="query" class="form-control" id="textarea-query" aria-describedby="textarea-query-help" style="height: 350px;"></textarea>
-      <small id="textarea-query-help" class="form-text text-muted">
-        You can use <a href="https://overpass-turbo.eu/" target="_blank">https://overpass-turbo.eu/</a> to create your query.
-        <code>{% raw %}{{bbox}}{% endraw %}</code> will be replaced by the bounding box of your GeoJSON file.
-      </small>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+
+  <div class="form-group">
+    <label for="textarea-file">Overpass query</label>
+    <textarea name="query" class="form-control" id="textarea-query" required="required" aria-describedby="textarea-query-help" style="height: 350px;"></textarea>
+    <small id="textarea-query-help" class="form-text text-muted">
+      You can use <a href="https://overpass-turbo.eu/" target="_blank">https://overpass-turbo.eu/</a> to create your query.
+      <code>{% raw %}{{bbox}}{% endraw %}</code> will be replaced by the bounding box of your GeoJSON file.
+    </small>
+  </div>
   </form>
 </div>
 {% endblock %}
