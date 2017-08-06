@@ -1,0 +1,19 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+<div class="container">
+  <h2>2 - Fetch OSM data <small class="text-muted">with Overpass API</small></h2>
+  <hr>
+  <form action="/compare" method="post">
+    <div class="form-group">
+      <label for="textarea-file">Overpass query</label>
+      <textarea name="query" class="form-control" id="textarea-query" aria-describedby="textarea-query-help" style="height: 350px;"></textarea>
+      <small id="textarea-query-help" class="form-text text-muted">
+        You can use <a href="https://overpass-turbo.eu/" target="_blank">https://overpass-turbo.eu/</a> to create your query.
+        <code>{% raw %}{{bbox}}{% endraw %}</code> will be replaced by the bounding box of your GeoJSON file.
+      </small>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+{% endblock %}

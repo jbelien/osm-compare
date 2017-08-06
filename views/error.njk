@@ -1,0 +1,3 @@
+{% if message %}<h1>{{ message }}</h1>{% endif %}
+{% if error.status %}<h2>{{ error.status }}</h2>{% endif %}
+{% if error.stack %}<pre>{{ error.stack }}</pre>{% endif %}
