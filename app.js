@@ -1,9 +1,7 @@
 var express = require("express");
 
-//var favicon = require("serve-favicon");
 var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
-var hbs = require("hbs");
 var logger = require("morgan");
 var path = require("path");
 var session = require("express-session");
@@ -27,21 +25,6 @@ nunjucks.configure("views", {
     watch: true
 });
 
-/*
-hbs.registerHelper("json", function(context) {
-  return JSON.stringify(context);
-});
-hbs.registerHelper("list", function(items, options) {
-  var out = "<ul>";
-
-  for(var i=0, l=items.length; i<l; i++) {
-    out = out + "<li>" + options.fn(items[i]) + "</li>";
-  }
-
-  return out + "</ul>";
-});
-*/
-
 // session manager
 var sess = {
   cookie: {},
@@ -57,8 +40,6 @@ if (app.get("env") === "production") {
 
 app.use(session(sess));
 
-// uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, "public", "favicon.ico")));
 app.use(logger("dev"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
