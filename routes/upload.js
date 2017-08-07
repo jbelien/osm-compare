@@ -11,6 +11,9 @@ var router = express.Router();
 var upload = multer({ dest: "uploads/" })
 
 router.get("/", function(req, res, next) {
+  delete req.session.file;
+  delete req.session.overpass;
+
   res.render("upload", {});
 });
 

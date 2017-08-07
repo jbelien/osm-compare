@@ -14,7 +14,7 @@
 
   <div class="form-group">
     <label for="textarea-file">Overpass query</label>
-    <textarea name="query" class="form-control" id="textarea-query" required="required" aria-describedby="textarea-query-help" style="height: 350px;"></textarea>
+    <textarea name="query" class="form-control" id="textarea-query" required="required" aria-describedby="textarea-query-help" style="height: 350px;">{{ query | default('') }}</textarea>
     <small id="textarea-query-help" class="form-text text-muted">
       You can use <a href="https://overpass-turbo.eu/" target="_blank">https://overpass-turbo.eu/</a> to create your query.
       <code>{% raw %}{{bbox}}{% endraw %}</code> will be replaced by the bounding box of your GeoJSON file.
