@@ -20,11 +20,19 @@
   <div class="row">
     <div class="col">
       <h3>{{file}}</h3>
-      <div id="map1"></div>
+      <div id="map-left"></div>
+      <div id="popup-left" class="ol-popup">
+        <a href="#" id="popup-left-closer" class="ol-popup-closer"></a>
+        <div id="popup-left-content"></div>
+      </div>
     </div>
     <div class="col">
       <h3>OpenStreetMap</h3>
-      <div id="map2"></div>
+      <div id="map-right"></div>
+      <div id="popup-right" class="ol-popup">
+        <a href="#" id="popup-right-closer" class="ol-popup-closer"></a>
+        <div id="popup-right-content"></div>
+      </div>
     </div>
   </div>
 </div>
@@ -33,74 +41,11 @@
 {% block scripts %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.2.0/ol.js" integrity="sha256-AS3nJgIE4+tPLihbjC2HgphwH1ofrA+7JaP4WmPL+9Q=" crossorigin="anonymous"></script>
 <script>
-  (function(){
-    var areaLayer = new ol.layer.Vector({
-      source: new ol.source.Vector(),
-      style: function(feature) {
-        return new ol.style.Style({
-          stroke: new ol.style.Stroke({
-            color: "blue",
-            lineDash: [10],
-            width: 3
-          }),
-          fill: false
-        });
-      }
-    });
-    var vectorLayer1 = new ol.layer.Vector({
-      source: new ol.source.Vector()
-    });
-    var vectorLayer2 = new ol.layer.Vector({
-      source: new ol.source.Vector()
-    });
-
-    var view = new ol.View({
-      center: ol.proj.fromLonLat([37.41, 8.82]),
-      zoom: 4
-    });
-
-    var map1 = new ol.Map({
-      controls: ol.control.defaults({attribution: false}).extend([ new ol.control.Attribution({collapsible: false}) ]),
-      layers: [
-        new ol.layer.Tile({
-          source: new ol.source.OSM()
-        }),
-        areaLayer,
-        vectorLayer1
-      ],
-      target: "map1",
-      view: view
-    });
-
-    var map2 = new ol.Map({
-      controls: ol.control.defaults({attribution: false}).extend([ new ol.control.Attribution({collapsible: false}) ]),
-      layers: [
-        new ol.layer.Tile({
-          source: new ol.source.OSM()
-        }),
-        areaLayer,
-        vectorLayer2
-      ],
-      target: "map2",
-      view: view
-    });
-
-    areaLayer.getSource().addFeature((new ol.format.GeoJSON()).readFeature({{ area | dump | safe }}, { featureProjection: view.getProjection() }));
-
-    //vectorSource1.addFeature((new ol.format.GeoJSON()).readFeatures({{ geojson | dump | safe }}, { featureProjection: view.getProjection() }));
-    //vectorSource2.addFeature((new ol.format.GeoJSON()).readFeatures({{ osm | dump | safe }}, { featureProjection: view.getProjection() }));
-
-    var json = {{ geojson | dump | safe }};
-    json.features.forEach(function(feature) {
-      vectorLayer1.getSource().addFeature((new ol.format.GeoJSON()).readFeature(feature, { featureProjection: view.getProjection() }));
-    });
-
-    var osm = {{ osm | dump | safe }};
-    osm.features.forEach(function(feature) {
-      vectorLayer2.getSource().addFeature((new ol.format.GeoJSON()).readFeature(feature, { featureProjection: view.getProjection() }));
-    });
-
-    view.fit(areaLayer.getSource().getExtent());
-  })();
+  window.app = {
+    area: {{ area | dump | safe }},
+    json: {{ geojson | dump | safe }},
+    osm: {{ osm | dump | safe }}
+  };
 </script>
+<script src="/javascripts/compare.js"></script>
 {% endblock %}

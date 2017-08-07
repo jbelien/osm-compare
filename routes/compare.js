@@ -16,11 +16,11 @@ router.post("/", function(req, res, next) {
   var buffer = turf.buffer(envelope, 500, "meters", 1);
   var area = turf.envelope(buffer);
 
-  debug(bbox);
-
   var overpassQuery = req.body.query;
 
-  debug(req.body);
+  req.session.overpass = {
+    query: req.body.query
+  };
 
   //var overpassQuery = '[out:json][timeout:25];'
   //overpassQuery += '(';
@@ -34,8 +34,6 @@ router.post("/", function(req, res, next) {
   //overpassQuery += 'out skel qt;';
 
   var overpass = "http://www.overpass-api.de/api/interpreter?data=" + encodeURI(overpassQuery.replace(/{{bbox}}/gi, bbox[1].toString() + "," + bbox[0].toString() + ","  + bbox[3].toString() + ","  + bbox[2].toString()));
-
-  debug(overpass);
 
   fetch(overpass).then(function(response) {
     return response.text();
