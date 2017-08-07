@@ -27,7 +27,8 @@
   {% if file %}
     {% if errors %}
     <div class="alert alert-danger" role="alert">
-      <strong>Error :</strong>
+      <strong>Your GeoJSON file is not valid.</strong>
+      <p>Here is why :</p>
       <ul>
       {% for error in errors %}
         <li>{{ error.message }}</li>
