@@ -5,6 +5,7 @@ Compare your GeoJSON file against OpenStreetMap data
 
 ```
 git clone https://github.com/jbelien/osm-compare.git
+cd ./osm-compare/
 npm install
 DEBUG=osm-compare:* npm start
 ```
