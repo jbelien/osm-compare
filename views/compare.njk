@@ -20,18 +20,26 @@
   <div class="row">
     <div class="col">
       <h3>{{file}}</h3>
-      <div id="map-left"></div>
-      <div id="popup-left" class="ol-popup">
-        <a href="#" id="popup-left-closer" class="ol-popup-closer"></a>
-        <div id="popup-left-content"></div>
+      <div class="row">
+        <div class="col-4">
+          <h4>{{countLeft}} object(s)</h4>
+          <div id="infos-left-content"></div>
+        </div>
+        <div class="col-8">
+          <div id="map-left"></div>
+        </div>
       </div>
     </div>
     <div class="col">
       <h3>OpenStreetMap</h3>
-      <div id="map-right"></div>
-      <div id="popup-right" class="ol-popup">
-        <a href="#" id="popup-right-closer" class="ol-popup-closer"></a>
-        <div id="popup-right-content"></div>
+      <div class="row">
+        <div class="col-8">
+          <div id="map-right"></div>
+        </div>
+        <div class="col-4">
+          <h4>{{countRight}} object(s)</h4>
+          <div id="infos-right-content"></div>
+        </div>
       </div>
     </div>
   </div>

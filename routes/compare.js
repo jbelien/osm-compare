@@ -22,29 +22,21 @@ router.post("/", function(req, res, next) {
     query: req.body.query
   };
 
-  //var overpassQuery = '[out:json][timeout:25];'
-  //overpassQuery += '(';
-  ////overpassQuery += 'node["amenity"="drinking_water"]({{bbox}});';
-  //overpassQuery += 'node["amenity"="compressed_air"]({{bbox}});';
-  //overpassQuery += 'way["amenity"="compressed_air"]({{bbox}});';
-  //overpassQuery += 'relation["amenity"="compressed_air"]({{bbox}});';
-  //overpassQuery += ');';
-  //overpassQuery += 'out body;';
-  //overpassQuery += '>;';
-  //overpassQuery += 'out skel qt;';
-
   var overpass = "http://www.overpass-api.de/api/interpreter?data=" + encodeURI(overpassQuery.replace(/{{bbox}}/gi, bbox[1].toString() + "," + bbox[0].toString() + ","  + bbox[3].toString() + ","  + bbox[2].toString()));
 
   fetch(overpass).then(function(response) {
     return response.text();
   }).then(function(text) {
     var osm = JSON.parse(text);
+    var osmjson = osmtogeojson(osm);
 
     res.render("compare", {
+      area: area,
       file: req.session.file.name,
       geojson: geojson,
-      osm: osmtogeojson(osm),
-      area: area
+      countLeft: geojson.features.length,
+      osm: osmjson,
+      countRight: osmjson.features.length,
     });
   });
 });

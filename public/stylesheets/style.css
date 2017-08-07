@@ -7,6 +7,11 @@ body {
   font-size: 13px;
 }
 
+#map-left,
+#map-right {
+  height: 500px;
+}
+
 .ol-attribution {
   box-sizing: content-box;
 }

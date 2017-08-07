@@ -2,45 +2,8 @@
   /**
    * Elements that make up the popup.
    */
-  var containerLeft = document.getElementById('popup-left');
-  var contentLeft = document.getElementById('popup-left-content');
-  var closerLeft = document.getElementById('popup-left-closer');
-  var containerRight = document.getElementById('popup-right');
-  var contentRight = document.getElementById('popup-right-content');
-  var closerRight = document.getElementById('popup-right-closer');
-
-  /**
-   * Create an overlay to anchor the popup to the map.
-   */
-  var overlayLeft = new ol.Overlay({
-    element: containerLeft,
-    autoPan: true,
-    autoPanAnimation: {
-      duration: 250
-    }
-  });
-  var overlayRight = new ol.Overlay({
-    element: containerRight,
-    autoPan: true,
-    autoPanAnimation: {
-      duration: 250
-    }
-  });
-
-  /**
-   * Add a click handler to hide the popup.
-   * @return {boolean} Don't follow the href.
-   */
-  closerLeft.onclick = function () {
-    overlayLeft.setPosition(undefined);
-    closerLeft.blur();
-    return false;
-  };
-  closerRight.onclick = function () {
-    overlayRight.setPosition(undefined);
-    closerRight.blur();
-    return false;
-  };
+  var contentLeft = document.getElementById('infos-left-content');
+  var contentRight = document.getElementById('infos-right-content');
 
   /**
    * Create layer with bounding box
@@ -132,7 +95,6 @@
       areaLayer,
       vectorLayerLeft
     ],
-    overlays: [ overlayLeft ],
     target: "map-left",
     view: view
   });
@@ -178,9 +140,6 @@
        };
 
        contentLeft.appendChild(table);
-       overlayLeft.setPosition(event.coordinate);
-     } else {
-       overlayLeft.setPosition(undefined);
      }
    });
   /**
@@ -214,7 +173,6 @@
       areaLayer,
       vectorLayerRight
     ],
-    overlays: [ overlayRight ],
     target: "map-right",
     view: view
   });
@@ -260,9 +218,6 @@
       };
 
       contentRight.appendChild(table);
-      overlayRight.setPosition(event.coordinate);
-    } else {
-      overlayRight.setPosition(undefined);
     }
   });
   /**
