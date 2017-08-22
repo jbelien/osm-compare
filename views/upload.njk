@@ -24,29 +24,35 @@
   <h2>1 - Upload data</h2>
   <hr>
 
-  {% if file %}
-    {% if errors %}
-    <div class="alert alert-danger" role="alert">
-      <strong>Your GeoJSON file is not valid.</strong>
-      <p>Here is why :</p>
-      <ul>
-      {% for error in errors %}
-        <li>{{ error.message }}</li>
-      {% endfor %}
-      </ul>
-    </div>
-    {% else %}
-    <p>
-      <strong>File :</strong> {{ file }}
-    </p>
-    <div id="map" style="width: 100%; height: 500px;"></div>
-    {% endif %}
+  {% if errors %}
+  <div class="alert alert-danger" role="alert">
+    <strong>Your GeoJSON file is not valid.</strong>
+    <p>Here is why :</p>
+    <ul>
+    {% for error in errors %}
+      <li>{{ error.message }}</li>
+    {% endfor %}
+    </ul>
+  </div>
   {% else %}
-    <div class="form-group">
-      <label for="input-file">File input</label>
-      <input type="file" name="file" class="form-control-file" id="input-file" aria-describedby="input-file-help">
-      <small id="input-file-help" class="form-text text-muted">Must be a valid GeoJSON file. Full details on <a href="http://geojson.org/" target="_blank">http://geojson.org/</a>.</small>
-    </div>
+    {% if file %}
+      <p>
+        <strong>File :</strong> {{ file }}
+      </p>
+      <div id="map" style="width: 100%; height: 500px;"></div>
+    {% else %}
+      <div class="form-group">
+        <label for="input-file">File input from your disk</label>
+        <input type="file" name="file" class="form-control-file" id="input-file" aria-describedby="input-file-help">
+        <small id="input-file-help" class="form-text text-muted">Must be a valid GeoJSON file. Full details on <a href="http://geojson.org/" target="_blank">http://geojson.org/</a>.</small>
+      </div>
+      <div class="text-center">- OR -</div>
+      <div class="form-group">
+        <label for="input-url">File input from URL</label>
+        <input type="url" name="url" class="form-control" id="input-url" aria-describedby="input-url-help">
+        <small id="input-url-help" class="form-text text-muted">Must be URL pointing to a valid GeoJSON file. Full details on <a href="http://geojson.org/" target="_blank">http://geojson.org/</a>.</small>
+      </div>
+    {% endif %}
   {% endif %}
   </form>
 </div>
