@@ -1,4 +1,6 @@
 var express = require("express");
+
+var crypto = require('crypto');
 var multer = require("multer");
 var fs = require("fs");
 var turf = require("@turf/turf");
@@ -7,6 +9,8 @@ var fetch = require("node-fetch");
 var debug = require("debug")("osm-compare:upload");
 var geojsonhint = require("@mapbox/geojsonhint");
 var validurl = require("valid-url");
+var url = require("url");
+var path = require("path");
 
 var router = express.Router();
 var upload = multer({ dest: "uploads/" })
@@ -81,7 +85,9 @@ router.post("/", upload.single("file"), function(req, res, next) {
         if (errors.length > 0) {
           throw new Exception(errors);
         } else {
-          fs.writeFile("uploads/test.geojson", text, function(error) {
+          var temp = "uploads/" + crypto.randomBytes(16).toString('hex');
+
+          fs.writeFile(temp, text, function(error) {
             if (error) {
               throw new Exception(error);
             }
@@ -90,13 +96,13 @@ router.post("/", upload.single("file"), function(req, res, next) {
             var area = turf.envelope(buffer);
 
             req.session.file = {
-              path: "uploads/test.geojson",
-              name: "test" || null
+              path: temp,
+              name: path.basename(url.parse(req.body.url).pathname)
             };
 
             res.render("upload", {
               area: area,
-              file: "test" || null,
+              file: path.basename(url.parse(req.body.url).pathname),
               geojson: geojson
             });
           });
