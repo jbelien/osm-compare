@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@mapbox/geojsonhint": "2.0.1",
-    "@turf/turf": "4.7.3",
+    "@turf/turf": "5.1.6",
     "body-parser": "1.18.2",
     "cookie-parser": "1.4.3",
     "debug": "3.1.0",
