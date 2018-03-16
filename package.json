@@ -6,7 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "@mapbox/geojsonhint": "2.0.1",
+    "@mapbox/geojsonhint": "2.1.0",
     "@turf/turf": "5.1.6",
     "body-parser": "1.18.2",
     "cookie-parser": "1.4.3",
