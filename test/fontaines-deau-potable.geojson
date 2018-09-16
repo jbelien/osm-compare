@@ -1,0 +1,1740 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.391098,
+                    50.860577
+                ]
+            },
+            "properties": {
+                "description": "Au coin du Mc DonaldOp de hoek van de Mc Donald",
+                "geo_point_2d": [
+                    50.860577,
+                    4.391098
+                ],
+                "name": "\"Auguste Orts\" (F2)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.301834,
+                    50.835865
+                ]
+            },
+            "properties": {
+                "description": "Sur le square Breughel l\u2019Ancien, entre la rue de l\u2019Ep\u00e9e et rue Notre Dame de Gr\u00e2ces\u00a0Op het Breughelplein, tussen de Zwaardstraat en de Onze-Lieve-Vrouw van Gratiestraat.",
+                "geo_point_2d": [
+                    50.835865,
+                    4.301834
+                ],
+                "name": "Le Singe/De Aap (F10)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.503021,
+                    50.870544
+                ]
+            },
+            "properties": {
+                "description": "Juste \u00e0 l\u2019entr\u00e9e, le long du passage s\u00e9parant le parc en deux, \u00e0 l\u2019arri\u00e8re de la plaine de jeuxBij de ingang, langs de passage die het park in twee deelt, aan de achterkant van het speelplein",
+                "geo_point_2d": [
+                    50.870544,
+                    4.503021
+                ],
+                "name": "Parc Porte de Hal/Hallepoort Park (F14)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.342411,
+                    50.851192
+                ]
+            },
+            "properties": {
+                "description": "Square Jacques Brel, sur le terrain de basket\u00a0Jacques Brel plein, op het basketterrein",
+                "geo_point_2d": [
+                    50.851192,
+                    4.342411
+                ],
+                "name": "Rue du Houblon/Hopstraat (F18)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.357061,
+                    50.853939
+                ]
+            },
+            "properties": {
+                "description": "A la hauteur de l\u2019\u00e9glise du Finist\u00e8re et de l\u2019Inno \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0Ter hoogte van de Onze-Lieve-Vrouw van de Finist\u00e8rekerk en de Inno",
+                "geo_point_2d": [
+                    50.853939,
+                    4.357061
+                ],
+                "name": "Eglise du Finist\u00e8re/Onze-Lieve-Vrouw van Finist\u00e8re (F20)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.350033,
+                    50.85334
+                ]
+            },
+            "properties": {
+                "description": "Devant l\u2019Institut PachecoVoor het Pacheco Instituut",
+                "geo_point_2d": [
+                    50.85334,
+                    4.350033
+                ],
+                "name": "\"Les Musiciens\"/\"De Muzikanten\" (F22)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.374447,
+                    50.869461
+                ]
+            },
+            "properties": {
+                "description": "Rue de l'H\u00e9liport, dans la cour de la ferme du parc Maximilien\u00a0Helihavenlaan, op de binnenplaats van de boerderij van het Maximilienpark",
+                "geo_point_2d": [
+                    50.869461,
+                    4.374447
+                ],
+                "name": "\"Parc MaximilienPark\" (F24)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.367409,
+                    50.969669
+                ]
+            },
+            "properties": {
+                "description": "A l\u2019arri\u00e8re du Botanique, dans le petit parc, \u00e0 c\u00f4t\u00e9 du terrain de basketAchter den Botanique, in het kleine park, naast het basketterrein",
+                "geo_point_2d": [
+                    50.969669,
+                    4.367409
+                ],
+                "name": "Rue Botanique/Kruidtuinstraat (F25)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.448776,
+                    50.824589
+                ]
+            },
+            "properties": {
+                "description": "Sur le chemin axial du parc, qui m\u00e8ne vers le Mont des Arts, pr\u00e8s de l'aire de jeuxOp de hoofdweg van het park, die loopt naar de Kunstberg, kort bij het speelplein",
+                "geo_point_2d": [
+                    50.824589,
+                    4.448776
+                ],
+                "name": "Parc de Bruxelles/Warande Park (F27)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.331703,
+                    50.86491
+                ]
+            },
+            "properties": {
+                "description": "A la sortie de la gare donnant sur l'\u00e9glise de la Madeleine, rue de la PutterieBij de uitgang van het Centraal Station die uitgeeft op de Magdalenakerk, Putterijstraat",
+                "geo_point_2d": [
+                    50.86491,
+                    4.331703
+                ],
+                "name": "Gare centrale/Centraal station (T3)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.332218,
+                    50.828926
+                ]
+            },
+            "properties": {
+                "description": "Dans la partie situ\u00e9e entre le Boulevard de Waterloo et l\u2019Avenue Henri Jaspar\u00a0In het gedeelte tussen Waterlooselaan en de Henri Jasparlaan",
+                "geo_point_2d": [
+                    50.828926,
+                    4.332218
+                ],
+                "name": "Porte de Hal/Hallepoort (T6)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.343848,
+                    50.835995
+                ]
+            },
+            "properties": {
+                "description": "A proximit\u00e9 du terrain de foot Dichtbij het voetbalveld",
+                "geo_point_2d": [
+                    50.835995,
+                    4.343848
+                ],
+                "name": "Rue des M\u00e9nages/Huishoudenstraat (T8)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.34594,
+                    50.847126
+                ]
+            },
+            "properties": {
+                "description": "A l'arri\u00e8re de l'\u00e9glise des Riches Claires Achter de kerk Onze Lieve Vrouw der Rijke Klaren",
+                "geo_point_2d": [
+                    50.847126,
+                    4.34594
+                ],
+                "name": "Rue Saint Christophe/Sint Kristoffelsstraat (T13)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.364491,
+                    50.857109
+                ]
+            },
+            "properties": {
+                "description": "C\u00f4t\u00e9 droit de l'\u00e9glise vue de faceAan de rechterzijde van de kerk, gezien van de voorkant",
+                "geo_point_2d": [
+                    50.857109,
+                    4.364491
+                ],
+                "name": "Place du B\u00e9guinage/Begijnhofplaats (T16)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.338452,
+                    50.845219
+                ]
+            },
+            "properties": {
+                "description": "Derri\u00e8re le b\u00e2timent, \u00e0 c\u00f4t\u00e9 du terrain de jeuAchter het gebouw, naast het sportterrein",
+                "geo_point_2d": [
+                    50.845219,
+                    4.338452
+                ],
+                "name": "Porte d'Anderlecht/Anderlechtsepoort (T19)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.341842,
+                    50.884136
+                ]
+            },
+            "properties": {
+                "description": "Au bord de l'all\u00e9e faisant le tour du parc (c\u00f4t\u00e9 rue Pierre Strauwen).Aan de rand van de laan als je een toer door het park maakt (kant van de Pierre Strauwenstraat)",
+                "geo_point_2d": [
+                    50.884136,
+                    4.341842
+                ],
+                "name": "Square Prince L\u00e9opold/Prins Leopoldsquare (F8)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.423939,
+                    50.816483
+                ]
+            },
+            "properties": {
+                "description": "Passerelle de la promenade verte, pr\u00e8s du pont, \u00e0 c\u00f4t\u00e9 de la plaine de jeux et centre infos IBGE (proximit\u00e9 Chauss\u00e9e de Wavre)  Bruggetje van de Groene Wandeling, kort bij de brug, naast de speeltuin en het infocenter BIM\u00a0 (vlakbij Waversesteenweg)",
+                "geo_point_2d": [
+                    50.816483,
+                    4.423939
+                ],
+                "name": "Rue Robert Willamestraat (F20)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.426809,
+                    50.820133
+                ]
+            },
+            "properties": {
+                "description": "Sur la promenade verte \u00e0 l'arri\u00e8re de l'Athen\u00e9e d'Auderghem en venant du Boulevard du Souverain (ancienne gare d'Auderghem)  Op de Groene Wandeling langs de achterkant van het Atheneum van Oudergem , komende van de Vorstlaan (oud station Oudergem)",
+                "geo_point_2d": [
+                    50.820133,
+                    4.426809
+                ],
+                "name": "Rue du Railwaystraat (F21)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.382515,
+                    50.801872
+                ]
+            },
+            "properties": {
+                "name": "Avenue des G\u00eanets/Bremlaan (F27)",
+                "geo_point_2d": [
+                    50.801872,
+                    4.382515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.33593,
+                    50.808857
+                ]
+            },
+            "properties": {
+                "description": "Entre les rues Joseph Bens et Roosendael (proximit\u00e9 Chauss\u00e9e d'Alsemberg),petit parc potager  Tussen de Joseph Bensstraat en de Roosendaalstraat (vlakbij de Alsemberglaan), kleine moestuin",
+                "geo_point_2d": [
+                    50.808857,
+                    4.33593
+                ],
+                "name": "Carr\u00e9 Tillens (F32)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.322315,
+                    50.88192
+                ]
+            },
+            "properties": {
+                "description": "Au n\u00b0 309, chemin qui relie le parc Roi Baudouin 1 et le parc Roi Baudouin 2Vlakbij n\u00b0309, wegje die de Boudewijn park 1 en 2 verbindt",
+                "geo_point_2d": [
+                    50.88192,
+                    4.322315
+                ],
+                "name": "Chauss\u00e9e de Wemmel/Wemmelse Steenweg (T1)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.347163,
+                    50.876408
+                ]
+            },
+            "properties": {
+                "description": "Le long de la Biblioth\u00e8que de Laeken (cot\u00e9 droit par rapport \u00e0 la tour)Langs de bibliotheek van Laken (langs de rechterkant tov de toren)",
+                "geo_point_2d": [
+                    50.876408,
+                    4.347163
+                ],
+                "name": "Rue Tielemansstraat (T2)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.374908,
+                    50.85083
+                ]
+            },
+            "properties": {
+                "name": "Parc de Liedekerkepark (T13)",
+                "geo_point_2d": [
+                    50.85083,
+                    4.374908
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.219093,
+                    50.899136
+                ]
+            },
+            "properties": {
+                "name": "Fontaine Pentagone \u00e0 faible d\u00e9bit",
+                "geo_point_2d": [
+                    50.899136,
+                    4.219093
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.2342,
+                    50.89069
+                ]
+            },
+            "properties": {
+                "name": "Fontaine Hors Pentagone \u00e0 d\u00e9bit important",
+                "geo_point_2d": [
+                    50.89069,
+                    4.2342
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.364834,
+                    50.85104
+                ]
+            },
+            "properties": {
+                "description": "Sur le parvis de l\u2019\u00e9glise Notre Dame du Bon Secours\u00a0Op het voorplein van de Onze-Lieve-Vrouw van Goede Bijstandkerk",
+                "geo_point_2d": [
+                    50.85104,
+                    4.364834
+                ],
+                "name": "\"Jardin des Olives\"/\"Oliventhof\" (F4)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.321918,
+                    50.84584
+                ]
+            },
+            "properties": {
+                "description": "Au croisement avec le Bld de l\u2019Empereur\u00a0Op de kruising met de Keizerslaan",
+                "geo_point_2d": [
+                    50.84584,
+                    4.321918
+                ],
+                "name": "\"Carnaval\" (F7)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.37479,
+                    50.858952
+                ]
+            },
+            "properties": {
+                "description": "En face de l\u2019entr\u00e9e du City 2, au coin de la rue de Malines\u00a0Nieuwstraat, recht tegenover de ingang van de City 2, op de hoek met de Mechelse straat",
+                "geo_point_2d": [
+                    50.858952,
+                    4.37479
+                ],
+                "name": "Rue de Malines/Mechelsestraat (F21)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.380455,
+                    50.852016
+                ]
+            },
+            "properties": {
+                "description": "Derri\u00e8re la Bourse  Achter de Beurs",
+                "geo_point_2d": [
+                    50.852016,
+                    4.380455
+                ],
+                "name": "Rue du Midi/Zuidstraat (T1)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.343414,
+                    50.833771
+                ]
+            },
+            "properties": {
+                "description": "A hauteur du num\u00e9ro 142, sortie du m\u00e9tro, devant la Maison des aveugles  Ter hoogte van nummer 142, aan de uitgang van de metro, voor het Blindentehuis",
+                "geo_point_2d": [
+                    50.833771,
+                    4.343414
+                ],
+                "name": "Boulevard du Midi/Zuidlaan (T7)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.349304,
+                    50.885303
+                ]
+            },
+            "properties": {
+                "description": "Acc\u00e8s en bas par le parc Sobieski, \u00e0 l'int\u00e9rieur des jardins du fleuriste, pr\u00e8s des cascades ou par en haut, av. des Robiniers. (M\u00e9tro stuyvenberg)Toegang beneden via het Sobieski-park, in de tuinenvandebloemist, in de buurt van de watervallen, of via de Witte Acacialaan (Metro Stuyvenberg)",
+                "geo_point_2d": [
+                    50.885303,
+                    4.349304
+                ],
+                "name": "Les jardins du Fleuriste/Tuinenvandebloemist (F10)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.459848,
+                    50.844418
+                ]
+            },
+            "properties": {
+                "description": "Au d\u00e9but de la Promenade verte, dans l'air de sport\u00a0Op het begin van de Groene Wandeling, op het sportplein",
+                "geo_point_2d": [
+                    50.844418,
+                    4.459848
+                ],
+                "name": "Rue J-B Verheyden/Verheydenstraat (F19)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.348934,
+                    50.827259
+                ]
+            },
+            "properties": {
+                "description": "Sur le haut de la Place\u00a0Op het hoge deel van het plein",
+                "geo_point_2d": [
+                    50.827259,
+                    4.348934
+                ],
+                "name": "Place Louis Morichar/Louis Moricharplein (F30)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.356465,
+                    50.895401
+                ]
+            },
+            "properties": {
+                "description": "Face au n\u00b0441Tegenover n\u00b0441",
+                "geo_point_2d": [
+                    50.895401,
+                    4.356465
+                ],
+                "name": "Avenue des Pagodes/Pagodenlaan (T7)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.331703,
+                    50.829685
+                ]
+            },
+            "properties": {
+                "description": "Entre les n\u00b0 156 et 158 de la rue Blaes, devant le local du service de la jeunesse, passer le \u2018tunnel\u2019, pousser la barri\u00e8re, Plaine des Escargots, aire de jeux, \u00e0 droite\u00a0Tussen de nummers 156 en 158 van de Blaastraat, ga langs \u2018de tunnel\u2019, de barri\u00e8re wegduwen, slakkenplein, speelplein, rechts",
+                "geo_point_2d": [
+                    50.829685,
+                    4.331703
+                ],
+                "name": "Plaine des Escargots/Slakkenplein (F11)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.298401,
+                    50.862961
+                ]
+            },
+            "properties": {
+                "description": "Cantersteen, entre les n\u00b012 et 14, en face de la Galerie RavensteinCantersteen, tussen nummer 12 en 14, tegenover de Ravensteingalerij",
+                "geo_point_2d": [
+                    50.862961,
+                    4.298401
+                ],
+                "name": "Gare centrale/Centraal station (T2)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.280205,
+                    50.84042
+                ]
+            },
+            "properties": {
+                "description": "En face du n\u00b0 77 Boulevard Lemonnier  Ttegenover nummer 77 van de Lemonnierlaan",
+                "geo_point_2d": [
+                    50.84042,
+                    4.280205
+                ],
+                "name": "Place Anneessensplein (T11)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.380769,
+                    50.899357
+                ]
+            },
+            "properties": {
+                "description": "Parc du Val Maria Mari\u00ebndaal",
+                "geo_point_2d": [
+                    50.899357,
+                    4.380769
+                ],
+                "name": "Parc du Val Maria/Mar\u00efendaal (F6)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.331671,
+                    50.899696
+                ]
+            },
+            "properties": {
+                "description": "Parc du Verregat: derri\u00e8re le chalet (c\u00f4t\u00e9 avenue des magnoliats)Verregatpark : achter de chalet (kant van de Magnolialaan).",
+                "geo_point_2d": [
+                    50.899696,
+                    4.331671
+                ],
+                "name": "Rue des Gen\u00e9vriers/Jeneverbomenstraat (F9)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.348113,
+                    50.885258
+                ]
+            },
+            "properties": {
+                "description": "Acc\u00e8s en bas par le parc Sobieski, \u00e0 l'int\u00e9rieur des jardins du fleuriste, pr\u00e8s des cascades ou par en haut, av. des Robiniers. (M\u00e9tro stuyvenbergToegang beneden via het Sobieski-park, in de tuinenvandebloemist, in de buurt van de watervallen, of via de Witte Acacialaan (Metro Stuyvenberg)",
+                "geo_point_2d": [
+                    50.885258,
+                    4.348113
+                ],
+                "name": "Les Jardins du Fleuriste/Tuinenvandebloemist (F11)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.360789,
+                    50.865059
+                ]
+            },
+            "properties": {
+                "description": "Derri\u00e8re la Gare du Nord, tout au bout du parc, en face de la rue Gendebien\u00a0Achter het Noordstation, op het einde van het park, tegenover de Gendebienstraat",
+                "geo_point_2d": [
+                    50.865059,
+                    4.360789
+                ],
+                "name": "\"Parc Gaucheret Park\" (F12)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.374948,
+                    50.850864
+                ]
+            },
+            "properties": {
+                "description": "Dans le local gardien du parcIn het lokaal van de parkwachter",
+                "geo_point_2d": [
+                    50.850864,
+                    4.374948
+                ],
+                "name": "Parc de Liedekerkepark (F16)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.359228,
+                    50.876217
+                ]
+            },
+            "properties": {
+                "description": "Depuis le parvis Notre-Dame, descendre la rue des Palais Outre-Pont, tourner \u00e0 la 2i\u00e8me \u00e0 droite, prendre au bout de la rue \u00e0 droite. Juste avant l'entr\u00e9e du tunnel.  Vanuit het Onze Lieve-Vrouwplein, de Paleizenstraat-over-de-Bruggen afgaan, de 2de afslag naar rechts , aan het einde van de straat rechts, net voor de ingang van de tunnel.",
+                "geo_point_2d": [
+                    50.876217,
+                    4.359228
+                ],
+                "name": "Rue Hubert Stiernetstraat (T4)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.35683,
+                    50.878506
+                ]
+            },
+            "properties": {
+                "description": "Au d\u00e9but de la rue, sur la droite, contre le mur du domaine royal.Aan het begin van de straat, op de rechterkant, tegen de muur van de koninklijke domein",
+                "geo_point_2d": [
+                    50.878506,
+                    4.35683
+                ],
+                "name": "Rue Mellery/Mellerystraat (T5)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.420838,
+                    50.846573
+                ]
+            },
+            "properties": {
+                "description": "Entr\u00e9e lat\u00e9rale gauche du parc, dans le local du gardien de parc, pr\u00e8s de la plaine de jeuxDe zijingang links van het park, in het lokaal van de parkwachter, vlakbij de speeltuin",
+                "geo_point_2d": [
+                    50.846573,
+                    4.420838
+                ],
+                "name": "Av. Georges Henrilaan (T12)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.372011,
+                    50.814541
+                ]
+            },
+            "properties": {
+                "description": "Dit : \"square des Milliardaires\".Au rond point de l'avenue Georges LLoyd \u00e0 droite de la petite maison de droite, \u00e0 l'entr\u00e9e du bois de la Cambre, au bout de l'Avenue Louise\u00a0Op het rond punt van de Lloyd Georges laan rechts van het kleine huis op de rechterkant, bij de ingang van het Ter Kameren bos, op het einde van de Louizalaan",
+                "geo_point_2d": [
+                    50.814541,
+                    4.372011
+                ],
+                "name": "Square du Bois/Bossquare (T15)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.235229,
+                    50.880295
+                ]
+            },
+            "properties": {
+                "name": "Urinoir Hors Pentagone",
+                "geo_point_2d": [
+                    50.880295,
+                    4.235229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.351514,
+                    50.847588
+                ]
+            },
+            "properties": {
+                "description": "A l\u2019arri\u00e8re de la Bourse, entre l\u2019Eglise St Nicolas et la Grand Place\u00a0Aan de achterkant van de Beurs, tussen de Sint-Niklaaskerk en de Grote MarktFontaine \u00e0 faible d\u00e9bit/fontein met zwakke straal",
+                "geo_point_2d": [
+                    50.847588,
+                    4.351514
+                ],
+                "name": "\"Les Aveugles\"/\"De Blinden\" (F1)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.351273,
+                    50.859058
+                ]
+            },
+            "properties": {
+                "description": "A gauche de l\u2019entr\u00e9e de l\u2019\u00e9glise de la Chapelle, au skate parc\u00a0Links van de ingang van de Kapellekerk, bij het skatepark",
+                "geo_point_2d": [
+                    50.859058,
+                    4.351273
+                ],
+                "name": "Skate Park \"Ursulines\" (F6)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.345436,
+                    50.866211
+                ]
+            },
+            "properties": {
+                "description": "Dans le skate parc nomm\u00e9 \u2018Marie Popelin\u2019, \u00e0 l\u2019arri\u00e8re du complexe d\u2019immeubles du Foyer et de la Chapelle\u00a0In het skatepark \u2018Marie Popelin\u2019, achter het flatgebouwen van de Foyer en de Kapel",
+                "geo_point_2d": [
+                    50.866211,
+                    4.345436
+                ],
+                "name": "Skate Park \"Marie Popelin\" (F8)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.363117,
+                    50.828384
+                ]
+            },
+            "properties": {
+                "description": "Place du Jeu de Balles entre les tables de la terrasse du caf\u00e9 La Brocante.\u00a0Op het Vossenplein tussen de tafels op het terras van het caf\u00e9 La Brocante.",
+                "geo_point_2d": [
+                    50.828384,
+                    4.363117
+                ],
+                "name": "\"Comm\u00e8res \u00e0 la Fontaine\"/\"Roddels aan de Fontein\" (F12)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.401741,
+                    50.850822
+                ]
+            },
+            "properties": {
+                "description": "Entre les n\u00b042 et 48, \u00eelot Montserrat, dans le coin gauche des jeux de kikers \u00a0\u00a0Tussen de nummers 42 en 48, \u00eelot Montserrat,speelplein in de linkerhoek bij de kickertafel",
+                "geo_point_2d": [
+                    50.850822,
+                    4.401741
+                ],
+                "name": "\"Montserrat\" (F13)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.292564,
+                    50.801376
+                ]
+            },
+            "properties": {
+                "description": "Sur l\u2019\u00eelot central, du c\u00f4t\u00e9 de la rue de Flandre,\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0  Op het centrale pleintje vlakbij de Vlaamse steenweg",
+                "geo_point_2d": [
+                    50.801376,
+                    4.292564
+                ],
+                "name": "\"La Galanterie\" (F17)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.286041,
+                    50.859493
+                ]
+            },
+            "properties": {
+                "description": "Au coin de la rue de Loxum et du Blvd de l'Imp\u00e9ratrice\u00a0Op de hoek van de Loksumstraat en de Keizerinlaan",
+                "geo_point_2d": [
+                    50.859493,
+                    4.286041
+                ],
+                "name": "Blvd de l\u2019Imp\u00e9ratrice/Keizerinlaan (F26)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.355628,
+                    50.837959
+                ]
+            },
+            "properties": {
+                "description": "Entr\u00e9e rue aux Laines, passage Marguerite Yourcenar\u00a0Bij de ingang van de Wolstraat, passage Marguerite Yourcenar",
+                "geo_point_2d": [
+                    50.837959,
+                    4.355628
+                ],
+                "name": "Parc d'Egmont Park (F29)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.348698,
+                    50.828602
+                ]
+            },
+            "properties": {
+                "description": "Le long de l'ascenceur\u00a0Langs de lift",
+                "geo_point_2d": [
+                    50.828602,
+                    4.348698
+                ],
+                "name": "Rue des Minimes/Minimenstraat (T5)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.34063,
+                    50.89069
+                ]
+            },
+            "properties": {
+                "description": "En face du n\u00b0 1 de l\u2019Avenue de Stalingrad\u00a0Tegenover nummer 1 van de Stalingradlaan",
+                "geo_point_2d": [
+                    50.89069,
+                    4.34063
+                ],
+                "name": "Place Rouppeplein (T10)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.470749,
+                    50.904331
+                ]
+            },
+            "properties": {
+                "description": "Contre l'EgliseAan de muur van de kerk",
+                "geo_point_2d": [
+                    50.904331,
+                    4.470749
+                ],
+                "name": "Place Sainte-Catherine/Sint-Katelijneplein (T14)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.372902,
+                    50.861877
+                ]
+            },
+            "properties": {
+                "description": "Sur le coin de la Place avec la rue Antoine Dansart\u00a0Op de hoek van het plein met de Antoine Dansaert straat",
+                "geo_point_2d": [
+                    50.861877,
+                    4.372902
+                ],
+                "name": "Place du Nouveau March\u00e9 aux Grains/Nieuwe Graanmarkt (T15)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.377172,
+                    50.896713
+                ]
+            },
+            "properties": {
+                "description": "C\u00f4t\u00e9 rue Laskouter, \u00e0 c\u00f4t\u00e9 du terrain de basketKant van Laskouter, nabij het basketbalterrein",
+                "geo_point_2d": [
+                    50.896713,
+                    4.377172
+                ],
+                "name": "Avenue de Versailleslaan (F5)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.38745,
+                    50.851353
+                ]
+            },
+            "properties": {
+                "description": "Arri\u00e8re de l'ancienne caserne Prince Baudouin, \u00e0 c\u00f4t\u00e9 de la plaine de jeux (proximit\u00e9 Chauss\u00e9e de Louvain, Place Dailly)Achter de oude Prins Boudewijnkazerne, naast de speeltuin (nabij de Leuvensesteenweg, Dailly plein)",
+                "geo_point_2d": [
+                    50.851353,
+                    4.38745
+                ],
+                "name": "Avenue Charbolaan (F14)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.420919,
+                    50.846542
+                ]
+            },
+            "properties": {
+                "description": "Au centre du parc autour de la plaine de jeu et \u00e0 l'entr\u00e9e lat\u00e9rale gauche du parc chalet des gardiens (proximit\u00e9 Av. de Broqueville au square Meudon)In het centrum van het park, rond de speeltuin en aan de linker zijingang van het park, chalet van de parkwachter (nabij de Broquevillelaan op het Square Meudon)",
+                "geo_point_2d": [
+                    50.846542,
+                    4.420919
+                ],
+                "name": "Parc Georges Henri park (F15)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.423263,
+                    50.82394
+                ]
+            },
+            "properties": {
+                "description": "Au bas de l'avenue, \u00e0 l'agoraspace du parc, \u00e0 c\u00f4t\u00e9 du terrain de mini foot (proximit\u00e9 Av. De Tervuren et Blvd du Souverain), Parc de WoluweAan de onderkant van de laan, bij het agoraspace van het park, naast het minivoetbalveld (nabij de Tervurenlaan en de Vorstlaan), Woluwepark",
+                "geo_point_2d": [
+                    50.82394,
+                    4.423263
+                ],
+                "name": "Av. des Traquets (parc)/Zwartkeeltjeslaan (park) (F22)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.429228,
+                    50.810139
+                ]
+            },
+            "properties": {
+                "description": "Dans l'aire de jeu du Parc Seny\u00a0In de speeltuin van het Seny park",
+                "geo_point_2d": [
+                    50.810139,
+                    4.429228
+                ],
+                "name": "Parc Seny/Senypark (F23)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3455,
+                    50.893024
+                ]
+            },
+            "properties": {
+                "description": "Parc de Laeken,\u00e0 c\u00f4t\u00e9 du terrain de footPark van Laken,nabij het voetbalterrein",
+                "geo_point_2d": [
+                    50.893024,
+                    4.3455
+                ],
+                "name": "Avenue du Gros Tilleul/Dikkelindenlaan (T6)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.350951,
+                    50.880569
+                ]
+            },
+            "properties": {
+                "description": "Le long du cimeti\u00e8re, \u00e0 c\u00f4t\u00e9 du n\u00b044Langs het kerkhof, nabij nummer 44",
+                "geo_point_2d": [
+                    50.880569,
+                    4.350951
+                ],
+                "name": "Rue des artistes/Kunstenaarsstraat (T8)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.360569,
+                    50.875519
+                ]
+            },
+            "properties": {
+                "description": "A c\u00f4t\u00e9 du pont de chemin de ferNabij de brug van de spoorwegen",
+                "geo_point_2d": [
+                    50.875519,
+                    4.360569
+                ],
+                "name": "Rue des Palais Outre Pont/Paleizenstraat over de Bruggen (T9)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.31591,
+                    50.836517
+                ]
+            },
+            "properties": {
+                "description": "Esplanade de l'Europe, entr\u00e9e rue couverte (1000) Esplanade, ingang overdekte straat. (1000)",
+                "geo_point_2d": [
+                    50.836517,
+                    4.31591
+                ],
+                "name": "Gare du Midi/Zuidstation (T16a)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.340882,
+                    50.894634
+                ]
+            },
+            "properties": {
+                "description": "Avenue de Bouchout, au coin du Blvd du Centenaire (1020) Boechoutlaan, op de koek met Eeuwfeestlaan (1020)",
+                "geo_point_2d": [
+                    50.894634,
+                    4.340882
+                ],
+                "name": "Laeken (T17)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.22184,
+                    50.870762
+                ]
+            },
+            "properties": {
+                "name": "Toilette Pentagone",
+                "geo_point_2d": [
+                    50.870762,
+                    4.22184
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.373589,
+                    50.852558
+                ]
+            },
+            "properties": {
+                "description": "Au coin de la rue du March\u00e9 au Charbon\u00a0Op de hoek van de Kolenmarktstraat",
+                "geo_point_2d": [
+                    50.852558,
+                    4.373589
+                ],
+                "name": "Rue du Lombard/Lombardstraat (F3)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.268875,
+                    50.912125
+                ]
+            },
+            "properties": {
+                "description": "A c\u00f4t\u00e9 de l\u2019aire de jeu, au niveau de la placette, dans l\u2019axe de l\u2019impasse de la Barbe et du chemin menant \u00e0 la rue d\u2019Anderlecht\u00a0Gesitueerd naast het speelpark, ter hoogte van de placette, in de as van baardimpasse en de weg die naar de anderlechtse straat leidt.",
+                "geo_point_2d": [
+                    50.912125,
+                    4.268875
+                ],
+                "name": "\"Simone de Beauvoir\" Parc FontainasPark (F5)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.351959,
+                    50.839336
+                ]
+            },
+            "properties": {
+                "description": "Dans le Jardin public \u2018Jeanne Emile Vandervelde\u2019\u00a0In de publieke tuin \u2018Jeanne Emile Vandervelde\u2019",
+                "geo_point_2d": [
+                    50.839336,
+                    4.351959
+                ],
+                "name": "\"Jeanne Emile Vandervelde\" (F9)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.368782,
+                    50.854836
+                ]
+            },
+            "properties": {
+                "description": "Devant l\u2019h\u00f4tel M\u00e9tropole\u00a0Voor het M\u00e9tropool hotel",
+                "geo_point_2d": [
+                    50.854836,
+                    4.368782
+                ],
+                "name": "\"La Balan\u00e7oire\"/\"de Schommel\" (F19)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.465942,
+                    50.883976
+                ]
+            },
+            "properties": {
+                "description": "Derri\u00e8re le th\u00e9\u00e2tre flamand, sur le terrain de basket grillag\u00e9\u00a0Achter het KVS, op het basketterein",
+                "geo_point_2d": [
+                    50.883976,
+                    4.465942
+                ],
+                "name": "Quai au Foin/Hooikaai (F23)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.362817,
+                    50.84322
+                ]
+            },
+            "properties": {
+                "description": "Parc de Bruxelles, pr\u00e8s du bassin octogonal, entre les deux buvettes en bois\u00a0Warande park, vlakbij de octogonale bassin, tussen de twee houten bars",
+                "geo_point_2d": [
+                    50.84322,
+                    4.362817
+                ],
+                "name": "\"La Fille \u00e0 la Coquille\"/\"Het Meisje op de Schelp\" (F28)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.326124,
+                    50.850769
+                ]
+            },
+            "properties": {
+                "description": "Devant l\u2019\u00e9glise, en face de l\u2019espace skateboard\u00a0V\u00f3\u00f3r de kerk, tegenover het skatepark",
+                "geo_point_2d": [
+                    50.850769,
+                    4.326124
+                ],
+                "name": "Rue de la Chapelle/Kapellestraat (T4)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.345779,
+                    50.873577
+                ]
+            },
+            "properties": {
+                "description": "En face de la rue de la Grande Ile\u00a0Tegenover het Groot Eilandstraat",
+                "geo_point_2d": [
+                    50.873577,
+                    4.345779
+                ],
+                "name": "Place Fontainasplein (T12)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.352807,
+                    50.856457
+                ]
+            },
+            "properties": {
+                "description": "Sur la place en face du n\u00b0185 rue de Laeken avant les feux venant du centre ville  Op het plein tegenover het nummer 185 van de Laekensestraat voor de verkeerslichten komende uit het centrum van de stad",
+                "geo_point_2d": [
+                    50.856457,
+                    4.352807
+                ],
+                "name": "Porte d'Anvers/Antwerpsepoort (T17)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.366894,
+                    50.863285
+                ]
+            },
+            "properties": {
+                "description": "A la sortie du m\u00e9tro, le long de la ferme, au d\u00e9but de l'Av. de l'H\u00e9liport  Aan de uitgang van de metro, langs de boerderij, in het begin van de Helihavenlaan",
+                "geo_point_2d": [
+                    50.863285,
+                    4.366894
+                ],
+                "name": "Place de l'Yser/Ijzerplein (T18)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.156265,
+                    50.97356
+                ]
+            },
+            "properties": {
+                "description": "Sur la promenade verte, Clos du Zavelenberg (proximit\u00e9 Blvd Charles-Quint et Chauss\u00e9e de Gand)\u00a0\u00a0\u00a0  Op de Groene Wandeling,\u00a0 Clos van de Zavelenberg (nabij\u00a0 Keizer Karellaan en Gentse steenweg)",
+                "geo_point_2d": [
+                    50.97356,
+                    4.156265
+                ],
+                "name": "Avenue des Bardanes/Klissenlaan (F1)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.282866,
+                    50.859352
+                ]
+            },
+            "properties": {
+                "description": "Sur la promenade verte (proximit\u00e9 rue de Dilbeek) Op de Groene Wandeling (nabij de Dilbeekstraat)",
+                "geo_point_2d": [
+                    50.859352,
+                    4.282866
+                ],
+                "name": "Avenue du Cognassier/Kweepereboomlaan (F2)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.299881,
+                    50.852573
+                ]
+            },
+            "properties": {
+                "description": "Au coin du Boulevard Mettewie avec l'Avenue Maurice Van Hemelrijck, dans l'aire de jeu du Parc\u00a0Op de hoek van de Mettewielaan en de Maurice Van Hemelrijcklaan, in de speeltuin van het park",
+                "geo_point_2d": [
+                    50.852573,
+                    4.299881
+                ],
+                "name": "Parc du Scheutbos/Scheutbospark (F3)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.419106,
+                    50.896168
+                ]
+            },
+            "properties": {
+                "description": "Parc de Haeren Park van Haren",
+                "geo_point_2d": [
+                    50.896168,
+                    4.419106
+                ],
+                "name": "Rue de Beemdgrachtstraat (F4)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.271622,
+                    50.928143
+                ]
+            },
+            "properties": {
+                "description": "En face du n\u00b013Tegenover n\u00b013",
+                "geo_point_2d": [
+                    50.928143,
+                    4.271622
+                ],
+                "name": "Square Margueritesquare (F17)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.371228,
+                    50.811657
+                ]
+            },
+            "properties": {
+                "description": "A l'entr\u00e9e du parking, au bout du chemin.Bij de ingang van de\u00a0 parking, op het einde van de weg",
+                "geo_point_2d": [
+                    50.811657,
+                    4.371228
+                ],
+                "name": "Chemin du Croquetweg (F24)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.383953,
+                    50.801739
+                ]
+            },
+            "properties": {
+                "name": "Avenue des G\u00eanets/Bremlaan (F26)",
+                "geo_point_2d": [
+                    50.801739,
+                    4.383953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.260635,
+                    50.857761
+                ]
+            },
+            "properties": {
+                "description": "Au milieu du parc, entr\u00e9e petite rue de la poterie, au d\u00e9but de la chauss\u00e9e de Mons, au niveau de la Porte d\u2019Anderlecht\u00a0In het midden van het park, ingang Pottengoedstraat, aan het begin van de Bergense steenweg, ter hoogte van de Anderlechtse poort.",
+                "geo_point_2d": [
+                    50.857761,
+                    4.260635
+                ],
+                "name": "Parc de la Ros\u00e9e/DauwPark (F33)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.344229,
+                    50.890766
+                ]
+            },
+            "properties": {
+                "description": "A droite de l'\u00e9glise.Rechts van de kerk",
+                "geo_point_2d": [
+                    50.890766,
+                    4.344229
+                ],
+                "name": "Place Saint-Lambert/Sintlambertusplein (T3)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.356015,
+                    50.861771
+                ]
+            },
+            "properties": {
+                "description": "Au coin avec le Blvd Simon Bolivar, au bord du parc, \u00e0 c\u00f4t\u00e9 de l'arr\u00eat de bus\u00a0Op de hoek met Simon Bolivarlaan, aan de rand van het park, naast de bushalte",
+                "geo_point_2d": [
+                    50.861771,
+                    4.356015
+                ],
+                "name": "Chauss\u00e9e d'Anvers/Antwerpsesteenweg (T10)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.363406,
+                    50.862556
+                ]
+            },
+            "properties": {
+                "description": "2 urinoirs en face du n\u00b0 1201 urinoir en face du n\u00b0 801 urinoir en face du n\u00b0 1662 urinoirs tegenover n\u00b01201 urinoir tegenover n\u00b0 801 urinoir tegenover n\u00b0 166",
+                "geo_point_2d": [
+                    50.862556,
+                    4.363406
+                ],
+                "name": "Rue d'Aerschot/Aarschotstraat (T11)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.386737,
+                    50.847183
+                ]
+            },
+            "properties": {
+                "description": "Face au n\u00b013Tegenover nummer 13",
+                "geo_point_2d": [
+                    50.847183,
+                    4.386737
+                ],
+                "name": "Square Marguerite/Margaretasquare (T14)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.336735,
+                    50.837337
+                ]
+            },
+            "properties": {
+                "description": "Esplanade de l'Europe, entr\u00e9e rue couverte (1000) Esplanade, ingang overdekte straat. (1000)",
+                "geo_point_2d": [
+                    50.837337,
+                    4.336735
+                ],
+                "name": "Gare du Midi/Zuidstation (T16b)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.220123,
+                    50.890472
+                ]
+            },
+            "properties": {
+                "name": "Fontaine Pentagone \u00e0 d\u00e9bit important",
+                "geo_point_2d": [
+                    50.890472,
+                    4.220123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.22081,
+                    50.880295
+                ]
+            },
+            "properties": {
+                "name": "Urinoir Pentagone",
+                "geo_point_2d": [
+                    50.880295,
+                    4.22081
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.233513,
+                    50.899136
+                ]
+            },
+            "properties": {
+                "name": "Fontaine Hors Pentagone \u00e0 faible d\u00e9bit",
+                "geo_point_2d": [
+                    50.899136,
+                    4.233513
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.234886,
+                    50.870544
+                ]
+            },
+            "properties": {
+                "name": "Toilette Hors Pentagone",
+                "geo_point_2d": [
+                    50.870544,
+                    4.234886
+                ]
+            }
+        }
+    ]
+}
