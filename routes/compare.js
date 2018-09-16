@@ -13,7 +13,7 @@ router.post("/", function(req, res, next) {
   var bbox = turf.bbox(geojson);
 
   var envelope = turf.envelope(geojson);
-  var buffer = turf.buffer(envelope, 500, "meters", 1);
+  var buffer = turf.buffer(envelope, 0.5);
   var area = turf.envelope(buffer);
 
   var overpassQuery = req.body.query;

@@ -25,7 +25,7 @@ function processFile(req, res, file, filename, url) {
       throw errors;
     } else {
       var envelope = turf.envelope(geojson);
-      var buffer = turf.buffer(envelope, 500, "meters", 1);
+      var buffer = turf.buffer(envelope, 0.5);
       var area = turf.envelope(buffer);
 
       req.session.file = {

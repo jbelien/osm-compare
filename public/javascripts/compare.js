@@ -88,7 +88,7 @@
     layers: [
       new ol.layer.Tile({
         source: new ol.source.OSM({
-          url: "//tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png",
+          url: "https://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png",
           attributions: [ ol.source.OSM.ATTRIBUTION, "Tiles courtesy of <a href=\"https://geo6.be/\">GEO-6</a>" ]
         })
       }),
@@ -166,7 +166,7 @@
     layers: [
       new ol.layer.Tile({
         source: new ol.source.OSM({
-          url: "//tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png",
+          url: "https://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png",
           attributions: [ ol.source.OSM.ATTRIBUTION, "Tiles courtesy of <a href=\"https://geo6.be/\">GEO-6</a>" ]
         })
       }),
