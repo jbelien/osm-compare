@@ -21,7 +21,7 @@
     "node-fetch": "^2.6.0",
     "nunjucks": "^3.2.1",
     "osmtogeojson": "^3.0.0-beta.4",
-    "proj4": "^2.6.1",
+    "proj4": "^2.6.2",
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
