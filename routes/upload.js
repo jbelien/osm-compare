@@ -41,7 +41,7 @@ function processFile(req, res, file, filename, url) {
     }
   } catch (e) {
     res.render("upload", {
-      errors: (typeof e !== "array" ? [e] : e),
+      errors: (Array.isArray(e) !== true ? [e] : e),
       file: filename,
       url: url
     });
