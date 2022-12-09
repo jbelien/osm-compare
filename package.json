@@ -8,7 +8,7 @@
     "start:dev:windows": "set DEBUG=osm-compare:* && nodemon ./bin/www"
   },
   "dependencies": {
-    "@mapbox/geojsonhint": "^3.0.0",
+    "@mapbox/geojsonhint": "^3.1.0",
     "@turf/turf": "^5.1.6",
     "body-parser": "^1.20.1",
     "cookie-parser": "^1.4.5",
